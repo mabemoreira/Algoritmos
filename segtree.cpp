@@ -36,6 +36,8 @@ private:
         return (A[p1] <= A[p2]) ? p1 : p2;    // as in build routine
     }
 
+    
+
 public:
     SegmentTree(const vi &_A) {
         A = _A; n = (int)A.size();    // copy content for local usage
